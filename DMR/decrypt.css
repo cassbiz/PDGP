@@ -1,0 +1,75 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Rouge+Script&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,45484d+100 */
+background: rgb(0,0,0); /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+background: -webkit-gradient(linear,  left top, right top,  from(rgba(0,0,0,1)),to(rgba(69,72,77,1)));
+background: -o-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(69,72,77,1) 100%);
+background: linear-gradient(to right,  rgba(0,0,0,1) 0%,rgba(69,72,77,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#45484d',GradientType=1 ); /* IE6-9 */
+}
+
+.content-container {
+    display: block;
+    position: relative;
+    padding: 50px 15px;
+    width: 100%;
+}
+
+.content-holder{
+  background: #000;
+  display: block;
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  border: 10px solid;
+   -o-border-image: -o-linear-gradient(45deg, #45484d, #000, #666) 1;
+      border-image: linear-gradient(45deg, #45484d, #000, #666) 1;
+}
+
+.content-holder p{
+  font-size: 6px;
+  margin: 0;
+  line-height: 1;
+  display: block;
+  text-align: justify;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1559913929-08b6989ec45e?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNzIzOTk3Nw&ixlib=rb-1.2.1&q=85);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255,255,255,0);
+ 
+}
+
+.sign {
+    position: absolute;
+    bottom: 11px;
+    right: 30px;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Rouge Script', cursive;
+    line-height: 1;
+}
